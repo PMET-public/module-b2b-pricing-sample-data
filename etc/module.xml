@@ -29,6 +29,7 @@
             <module name="Magento_Swatches"/>
             <module name="Magento_SwatchesLayeredNavigation"/>
             <module name="MagentoEse_B2BSharedCatalogSampleData"/>
+            <module name="MagentoEse_DataInstall"/>
         </sequence>
     </module>
 </config>

@@ -33,6 +33,18 @@ class PreferredProducts
      * @var \Magento\Catalog\Model\ResourceModel\Category\Collection $categoryCollection
      */
     protected $categoryCollection;
+    
+    /**
+      * 
+      * @var FixtureManager
+      */
+      protected $fixtureManager;
+     
+      /**
+       * 
+       * @var Csv
+       */
+      protected $csvReader;
 
     /**
      * PreferredProducts constructor.
